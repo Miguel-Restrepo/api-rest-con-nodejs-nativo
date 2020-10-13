@@ -1,0 +1,20 @@
+{
+    "db-connections":{
+        "mongodb":{
+            "user":"usuario-rest-academico",
+            "host":"cluster0.o7qav.mongodb.net",
+            "password":"Miguel12195",
+            "dbname":"AcademyDB"
+        }
+    },
+    "secretKeys":{
+        "cryptojs":"H9fYJBQ6Hx",
+        "jwt": "ABC@20202"
+    },
+    "roles":{
+        "student": 1,
+        "teacher": 2
+    },
+    "server-port": 3000,
+    "sessionTime": 3600
+}

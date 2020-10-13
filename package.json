@@ -1,0 +1,23 @@
+{
+  "name": "pack-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "author": "Miguel Angel Restrepo Henao",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
